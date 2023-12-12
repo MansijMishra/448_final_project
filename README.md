@@ -12,6 +12,10 @@ Dogpedia is a React.js web application that allows users to submit a photo of a 
 - Transfer Learning: Weighted with the ImageNet dataset to leverage pre-trained features.
 - Training Dataset: Trained with the [Stanford Dogs Dataset](http://vision.stanford.edu/aditya86/ImageNetDogs/).
 
+## Breed Information
+
+Information about a breed's health and characteristics are provided using the [Dog API](https://dogapi.dog/) by [kinduff](https://kinduff.com/).
+https://kinduff.com/
 ## Technology Used
 
 - Tensorflow
