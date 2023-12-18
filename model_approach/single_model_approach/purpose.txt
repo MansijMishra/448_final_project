@@ -1,0 +1,1 @@
+This will be the folder for our single model (inception-v3) 120 breeds approach

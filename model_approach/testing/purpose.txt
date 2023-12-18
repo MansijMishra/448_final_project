@@ -1,0 +1,1 @@
+This folder is where we will perform the testing of our different approaches, with graphs / analysis on the quality of each.
