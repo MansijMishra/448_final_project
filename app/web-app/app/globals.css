@@ -2,3 +2,15 @@
 @tailwind components;
 @tailwind utilities;
 
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&family=Roboto&display=swap');
+
+:root {
+    --header-font: font-family: 'Poppins', sans-serif;
+    --regText-font: font-family: 'Roboto', sans-serif;
+}
+body{
+    font-family: var(--regText-font);
+}
+h2{
+    font-family: var(--header-font);
+}
