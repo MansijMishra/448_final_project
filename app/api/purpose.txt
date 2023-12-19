@@ -1,1 +1,0 @@
-This will be the folder for a flask API that sends json responses from our chosen model. to be integrated in our web app

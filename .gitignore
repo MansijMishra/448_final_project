@@ -2,3 +2,4 @@ model_approach/single_model_approach/X.pickle
 model_approach/single_model_approach/y.pickle
 model_approach/pre_processing/X.pickle
 model_approach/pre_processing/y.pickle
+app/api/venv
