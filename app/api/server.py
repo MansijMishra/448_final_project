@@ -10,14 +10,14 @@ server = Flask(__name__)
 dog_model = load_model('dogbreedrecognition.h5')
 
 # Define the categories for dog breeds (replace 'your_categories' with your actual categories)
-dog_categories = [['Australian_terrier',
- 'toy_poodle',
- 'Great_Pyrenees',
- 'Maltese_dog',
- 'Norwich_terrier',
+dog_categories = [['Australian terrier',
+ 'toy poodle',
+ 'Great Pyrenees',
+ 'Maltese dog',
+ 'Norwich terrier',
  'whippet',
- 'Boston_bull',
- 'Irish_setter',
+ 'Boston bull',
+ 'Irish setter',
  'Rottweiler',
  'kelpie',
  'schipperke',
