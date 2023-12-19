@@ -5,12 +5,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&family=Roboto&display=swap');
 
 :root {
-    --header-font: font-family: 'Poppins', sans-serif;
-    --regText-font: font-family: 'Roboto', sans-serif;
+    --header-font: 'Poppins', sans-serif;
+    --regText-font: 'Roboto', sans-serif;
 }
 body{
     font-family: var(--regText-font);
+    color: #7C7C7C;
 }
 h2{
     font-family: var(--header-font);
+    color: black;
 }
