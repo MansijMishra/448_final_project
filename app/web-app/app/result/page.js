@@ -16,7 +16,6 @@ function Result() {
 
   async function getDogInfo() {
     const id = getID(breed);
-    console.log(id)
     fetch(`https://dogapi.dog/api/v2/breeds/${id}`)
       .then((res) => res.json())
       .then((json) => {
