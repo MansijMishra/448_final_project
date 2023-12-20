@@ -30,11 +30,11 @@ https://kinduff.com/
 - [Johan Delao](https://github.com/JohanDelao)
 - [Henry Suarez](https://github.com/Henrysua12)
   
-  -Attempted EfficentNet Model Approach.
-  -Attempted VGG16 Model Approach.
-  -Attempted Data Augmentation on Single Model.
-  -Created Accuracy Test Script.
-  -Collaborated on Report.
+  - Attempted EfficentNet Model Approach.
+  - Attempted VGG16 Model Approach.
+  - Attempted Data Augmentation on Single Model.
+  - Created Accuracy Test Script.
+  - Collaborated on Report.
 
 
 
