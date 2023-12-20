@@ -1,1 +1,0 @@
-Possible inclusion, will be a docker container that will run the entire app (site and api with local port hosting) incase the api is down / not working.
