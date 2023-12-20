@@ -16,6 +16,7 @@ function Result() {
 
   async function getDogInfo() {
     const id = getID(breed);
+    console.log(id)
     fetch(`https://dogapi.dog/api/v2/breeds/${id}`)
       .then((res) => res.json())
       .then((json) => {
@@ -24,7 +25,7 @@ function Result() {
           setAttributes(json.data.attributes);
           console.log(json.data.attributes);
         }
-      });
+      }).catch((error) => console.log(error));
   }
 
   const LifeExpectancy = () => {
@@ -84,8 +85,8 @@ function Result() {
     <>loading</>
   ) : (
     <div className="flex flex-col w-full h-full Main-screen justify-center items-center">
-      <div className=" w-11/12 md:w-6/12 flex flex-col md:grid md:grid-cols-2 h-96 bg-white rounded-md">
-        <div className="flex flex-col gap-8 col-span-1 p-3">
+      <div className=" w-11/12 md:w-6/12 flex flex-col md:grid md:grid-cols-2 h-fit bg-white rounded-md">
+        <div className="flex flex-col gap-5 col-span-1 p-3">
           <div className="flex flex-col text-black">
             <p className="text-lg">That is a...</p>
             <p className="text-3xl font-bold">{breed}</p>
