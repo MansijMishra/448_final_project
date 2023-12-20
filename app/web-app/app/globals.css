@@ -7,6 +7,11 @@
 :root {
     --header-font: 'Poppins', sans-serif;
     --regText-font: 'Roboto', sans-serif;
+    --heightNeeded: calc(100vh - 4rem)
+}
+
+.Main-screen{
+    min-height: var(--heightNeeded);
 }
 body{
     font-family: var(--regText-font);
